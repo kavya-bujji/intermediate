@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> kavya|Chat App Illustration</title>
+
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  </head>
+  <body>
+    <div class="bg">
+      <div class="pattern1 pattern"></div>
+      <div class="pattern2 pattern"></div>
+    </div>
+
+    <div class="grid-container container">
+      <div class="app-container">
+        <div class="app">
+          <div class="app-head">
+            <ion-icon
+              name="chevron-back-outline"
+              class="icon back-icon"
+            ></ion-icon>
+
+            <div class="profile-container">
+              <div class="avatar">
+                <img src="./avatar.jpg" alt="avatar" />
+              </div>
+
+              <div class="profile-info">
+                <p class="profile-name">Samuel Green</p>
+                <p class="status">Available to Walk</p>
+              </div>
+            </div>
+
+            <ion-icon
+              name="ellipsis-vertical"
+              class="icon menu-icon"
+            ></ion-icon>
+          </div>
+
+          <div class="app-content">
+            <div class="chat">
+              <div class="chat-grp received">
+                <div class="message received">
+                  That sounds great. I’d be happy with that.
+                </div>
+
+                <div class="message received">
+                  Could you send over some pictures of your dog, please?
+                </div>
+              </div>
+
+              <div class="chat-grp sent">
+                <div class="message sent images">
+                  <ul class="image-wrapper">
+                    <li class="image-container">
+                      <img src="./dog-image-1.jpg" alt="" />
+                    </li>
+                    <li class="image-container">
+                      <img src="./dog-image-2.jpg" alt="" />
+                    </li>
+                    <li class="image-container">
+                      <img src="./dog-image-3.jpg" alt="" />
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="message sent">
+                  Here are a few pictures. She’s a happy girl!
+                </div>
+
+                <div class="message sent">Can you make it?</div>
+              </div>
+
+              <div class="chat-grp received">
+                <div class="message received">
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </div>
+
+                <div class="option message received">
+                  <input type="radio" class="radio" name="option" id="30min" />
+                  <label for="30min">30 minute walk <strong>$29</strong></label>
+                </div>
+
+                <div class="option message received">
+                  <input type="radio" class="radio" name="option" id="1hr" />
+                  <label for="1hr">1 hour walk <strong>$49</strong></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-box">
+              <input
+                type="text"
+                class="text-area"
+                placeholder="Type a message"
+              />
+              <button type="submit" class="submit-btn">
+                <ion-icon
+                  name="chevron-forward-outline"
+                  class="icon back-icon"
+                ></ion-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1 class="content-title">Simple Booking</h1>
+
+        <p class="desc">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </div>
+
+    
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </body>
+</html>
